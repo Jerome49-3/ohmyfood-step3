@@ -1,0 +1,169 @@
+// ANIMATION ROTATION CHECK
+@keyframes spin{
+    0%{
+        transform: rotate(0deg)
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}
+// ANIMATION FLASH DU DOT LOADER
+@keyframes flash{
+    0%{
+        box-shadow: none;
+    }
+    5%{
+        box-shadow: 0 0 70px $vert;
+    }
+    35%{
+        box-shadow: none;
+    }
+    40%{
+        box-shadow: 0 0 70px $violet;
+    }
+    75%{
+        box-shadow: none;
+    }
+    80%{
+        box-shadow: 0 0 70px $vert;
+    }
+    100%{
+        box-shadow: none;
+    }
+}
+// ANIMATION FONDU LOADER
+@keyframes disparition {
+    0%{
+        opacity: 0.9;
+     
+    }
+    20%{
+        opacity: 0.7;
+   
+    }
+    40%{
+        opacity: 0.6;
+    }
+    60%{
+        opacity: 0.4;
+    }
+    80%{
+        opacity: 0.3;
+    }
+    100%{
+        opacity: 0;
+        visibility: hidden;
+    }
+}
+// ANIMATION FONDU DOT LOADER
+@keyframes disparition_dot {
+    0%{
+        opacity: 1;
+    }
+    40%{
+        opacity: 0;
+    }
+    80%{
+        opacity: 1;
+
+    }
+    100%{
+        opacity: 0;
+    }
+}
+// ANIMATION CHECK
+@keyframes rotation-check{
+    0% {
+      -webkit-transform: rotateZ(45deg);
+              transform: rotateZ(5deg);
+            
+    }
+    100% {
+      -webkit-transform: rotateZ(360deg);
+              transform: rotateZ(360deg);
+              transition-duration: 500ms;
+    }
+}
+// ANIMATION APPARITION DU COEUR
+@keyframes apparition {
+    0%{
+        
+        opacity: 0;
+    }
+    20%{
+       
+        opacity: 0.2;
+    }
+    40%{
+        opacity: 0.4;
+        
+    }
+    60%{
+        opacity: 0.5;
+    }
+    80%{
+        opacity: 0.7;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+// ANIMATION APPARITION "BOUTON CHECK"
+@keyframes marginright {
+    0%{
+        
+        margin-right: -4em;
+        transition-delay: 2OOms;
+    }
+    25%{
+       
+        margin-right: -3em;
+        transition-delay: 4OOms;
+    }
+    50%{
+        margin-right: -2em;
+        transition-delay: 6OOms;
+        
+    }
+    75%{
+        margin-right: -1em;
+        transition-delay: 8OOms;
+    }
+    100%{
+        margin-right: 0em;
+        transition-delay: 10OOms;
+    }
+}
+// ANIMATION APPARITION MENUS (PAR AMINISTA.COM)
+ @-webkit-keyframes scale-in-ver-top {
+    0% {
+      -webkit-transform: scaleY(0);
+              transform: scaleY(0);
+      -webkit-transform-origin: 100% 0%;
+              transform-origin: 100% 0%;
+      opacity: 1;
+    }
+    100% {
+      -webkit-transform: scaleY(1);
+              transform: scaleY(1);
+      -webkit-transform-origin: 100% 0%;
+              transform-origin: 100% 0%;
+      opacity: 1;
+    }
+  }
+  @keyframes scale-in-ver-top {
+    0% {
+      -webkit-transform: scaleY(0);
+              transform: scaleY(0);
+      -webkit-transform-origin: 100% 0%;
+              transform-origin: 100% 0%;
+      opacity: 1;
+    }
+    100% {
+      -webkit-transform: scaleY(1);
+              transform: scaleY(1);
+      -webkit-transform-origin: 100% 0%;
+              transform-origin: 100% 0%;
+      opacity: 1;
+    }
+  }
